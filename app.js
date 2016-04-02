@@ -7,7 +7,7 @@ var appSecret = process.env.appsecret || 'YourAppSecret';
 // Create bot and add dialogs
 var bot = new builder.BotConnectorBot({
     appId: appId,
-    appSecret: 'YourAppSecret'
+    appSecret: appSecret
 });
 
 bot.add('/', function (session) {
