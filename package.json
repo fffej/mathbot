@@ -2,7 +2,7 @@
   "name": "mathbot",
   "version": "1.0.0",
   "description": "A bot that does math using Wolfram's API",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
